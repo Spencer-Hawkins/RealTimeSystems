@@ -1,0 +1,35 @@
+/*
+Real Time Systems:
+
+ Def. A Real time system is a system for whuch correctness depends on both logical correctness (doing the right thing) and temporal correctness (going it on time)
+
+Examples:
+  -school bell
+  -autonomous vehicles
+  -virtual reality
+  -High Frequency Trading
+  
+  
+Task              T_i     -computation executed on CPU
+Computation time  C_i     -time required for task to compute
+Relative Deadline D_i     -how much time we have to complete task  
+Job               T_i,k   -instance of a task
+Release time      R_i,k   -time job becomes ready for execution
+absolute dealine  d_i,k   -time by which job must be completed
+
+
+     r_i,k                             ╲╱
+T_i __^_______________________________d_i,k ______
+
+
+Usefulnes V.S. Time
+  -Hard deadlines have no usefulness after deadline
+  -Soft deadlines decrease in usefulness after deadline
+
+
+safety-critical system:
+  -there is human or economic, or physical impact to this system
+  -cyber-physical system. There is physical component (robotic arm) and code that controls how physical component operates
+ 
+
+*/
