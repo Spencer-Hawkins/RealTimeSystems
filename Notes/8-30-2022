@@ -30,6 +30,19 @@ Usefulnes V.S. Time
 safety-critical system:
   -there is human or economic, or physical impact to this system
   -cyber-physical system. There is physical component (robotic arm) and code that controls how physical component operates
+  
+  
+  
+  Scheduling Job/Process:
+  
+  (new)-> (ready) <-> (running) -> (waiting) ->(ready) ->...
+  
+ (ready)    -> (running) : scheduler dispatch
+ (runnning) -> (ready)   : interrupt
+ (running)  -> (waiting) : I/O or event wait
+ (waiting)  -> (ready)   : I/O even
+  
+  
  
 
 */
