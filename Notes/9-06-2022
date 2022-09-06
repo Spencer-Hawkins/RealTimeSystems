@@ -1,0 +1,21 @@
+/*
+REST OF NOTES: https://docs.google.com/presentation/d/1IfCTVfD2IcxhFE2B0e4sDbsff2NGnR8K25-YfStVmhs/edit?usp=sharing
+
+  Agenda:
+-Phase & presumptions
+-Periodic Tasks
+-Density
+
+
+EDF -- Earliest Deadline First
+             __      ____
+(0, 3, 6)   /\ ______   \/
+(1, 2, 4)   __/\___\/________
+            0    2    4    6
+
+
+
+
+
+
+*/
